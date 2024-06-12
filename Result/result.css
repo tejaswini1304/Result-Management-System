@@ -1,0 +1,124 @@
+body {
+    background-color: #ff8c6b;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ff8c6b;
+    color: white;
+    border: 1px solid #ff8c6b;
+}
+
+td {
+    border: 1px solid #ff8c6b;
+}
+
+.total-percentage {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.total-grade {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.roll-number-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#rollNumber {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    width: 200px;
+}
+
+#rollNumber:focus {
+    outline: none;
+    border-color: #ff8c6b;
+}
+
+button {
+    background-color: #ff8c6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px; /* Increase padding for a larger button */
+    cursor: pointer;
+    font-size: 16px; /* Increase font size for a larger button */
+}
+
+button i {
+    align-items: center;
+}
+
+button:hover {
+    background-color: #e56750;
+}
+
+.fa-magnifying-glass {
+    font-family: "Font Awesome 6 Solid";
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    right: 20px;
+    /*Adjustthepositionoftheicon*/top: 50%;
+    /*Centertheiconvertically*/transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
