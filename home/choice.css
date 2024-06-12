@@ -1,1 +1,80 @@
 
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ff8c6b;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.register-header {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.register-header h2 {
+  margin: 0;
+}
+
+.role-selection {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  flex: 1;
+  background-color: white;
+  margin: 0 10px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.square:hover {
+  transform: scale(1.05);
+}
+
+.square img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.space {
+  width: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff8c6b;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff704f;
+}
+
+@media (max-width: 480px) {
+  .role-selection {
+    flex-direction: column;
+  }
+
+  .square {
+    margin: 10px 0;
+  }
+}
