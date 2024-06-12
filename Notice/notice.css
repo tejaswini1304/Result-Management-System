@@ -1,0 +1,68 @@
+.navbar {
+    background-color: #ff8c6b;
+    overflow: hidden;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar li {
+    margin-top: 1.5%;
+    text-align: center;
+  }
+  
+  .navbar a {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar a.active {
+    text-decoration: underline;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .calendar-container {
+    background-color: #ff8c6b; /* Changed background color */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Additional styling for your calendar container */
+    margin: 20px auto; /* Added margin to center the container */
+    width: 80%; /* Adjusted width for responsiveness */
+    padding: 20px; /* Added padding to create space around the calendar */
+    display: flex; /* Use flexbox for positioning */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align children */
+  }
+  
+  .calendar-container iframe {
+    border: solid 1px #777;
+    margin-top: 20px; /* Added margin to separate the paragraph and iframe */
+    width: 100%; /* Set width to 100% */
+    height: 600px; /* Set height to maintain original size */
+  }
+  
+  .events-title {
+    text-align: center;
+  }
+  
+  /* Style for the Font Awesome icon */
+  .fa-calendar-days {
+    font-size: 18px; /* Adjust the font size to match the text */
+    margin-right: 5px; /* Add some spacing between the icon and text */
+  }
