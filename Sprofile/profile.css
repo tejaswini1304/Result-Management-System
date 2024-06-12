@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ff8c6b; /* Background color similar to save button */
+}
+
+.navbar {
+  background-color: #ffffff; /* White background color */
+  overflow: hidden;
+  height: 50px; /*Increased height of the navbar */
+  justify-content: space-around; /* Center align items horizontally */
+  align-items: center; /* Center align items vertically */
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around; /* Evenly distribute items horizontally */
+}
+
+.navbar li {
+  margin-top: 1.5%;
+  text-align: center; /* Center-align text within each navbar item */
+}
+
+.navbar a {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #ff8c6b; /* Text color for navbar links */
+  text-decoration: none;
+  display: flex;
+  align-items: center; /* Center align the text vertically */
+}
+
+.navbar a.active {
+  text-decoration: underline;
+}
+
+.navbar a:hover {
+  text-decoration: underline; /* Underline on hover */
+  font-weight: bold; /* Make text bold on hover */
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #333333;
+}
+
+.profile-details {
+  display: flex;
+}
+
+.personal-details,
+.school-details {
+  flex: 1;
+  padding: 20px;
+}
+
+.personal-details {
+  margin-right: 20px;
+  margin-top: -15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #ff8c6b;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 45%;
+}
+
+input[type="submit"]:hover {
+  background-color: #ff704f;
+}
+
+input:disabled {
+  background-color: #f0f0f0;
+}
