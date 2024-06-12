@@ -1,0 +1,100 @@
+/* home.css */
+
+body {
+    background-color: #ff8c6b;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar li {
+    margin-top: 1.5%;
+    text-align: center;
+  }
+  
+  .navbar a {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #ff8c6b;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar a.active {
+    text-decoration: underline;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px); /* Adjusted height to consider navbar height */
+  }
+  
+  .left-square,
+  .right-square {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 20px; /* Added margin to create space between squares */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Added shadow effect */
+    transition: transform 0.3s ease; /* Added transition for popping effect */
+  }
+  
+  .right-square:hover,
+  .left-square:hover {
+    transform: translateY(-5px); /* Move the box slightly up on hover */
+  }
+  
+  .right-square {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .caption {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: black; /* Set color to black */
+    margin-bottom: 20px; /* Added margin to create space between caption and button */
+  }
+  
+  .caption p {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #ff8c6b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    align-self: center; /* Align the button to the center horizontally */
+  }
+  
+  button:hover {
+    background-color: #ff6347;
+  }
